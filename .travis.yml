@@ -1,4 +1,4 @@
-...
+---
 git:
   depth: 1
   
@@ -32,4 +32,4 @@ deploy:
 after_deploy: echo "running"
 
 after_script: echo "running"
----
+...
