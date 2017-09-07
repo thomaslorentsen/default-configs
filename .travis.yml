@@ -1,0 +1,23 @@
+
+git:
+  depth: 1
+  
+before_install: echo "running"
+
+install: echo "running"
+
+before_script: echo "running"
+
+script: echo "running"
+
+after_success: echo "running"
+
+after_failure: echo "running"
+
+before_deploy: echo "running"
+
+deploy: echo "running"
+
+after_deploy: echo "running"
+
+after_script: echo "running"
