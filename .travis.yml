@@ -1,4 +1,4 @@
-
+...
 git:
   depth: 1
   
@@ -16,7 +16,12 @@ after_failure: echo "running"
 
 before_deploy: echo "running"
 
-deploy: echo "running"
+# https://docs.travis-ci.com/user/deployment/script/
+deploy:
+  provider: script
+  script: echo deploy
+  on:
+    branch: master
 
 after_deploy: echo "running"
 
