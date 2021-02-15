@@ -1,0 +1,24 @@
+[core]
+    excludesfile = ~/.gitignore_global
+    editor = nano
+    autocrlf = input
+
+[user]
+    name = <secret>
+    email = <secret>
+    signingkey = <secret>
+
+[commit]
+    gpgsign = true
+    template = ~/.gitmessage.txt
+
+[push]
+    default = current
+
+[pull]
+    rebase = true
+
+[url "git@github.com:"]
+    insteadOf = https://github.com/
+[url "git://"]
+    insteadOf = https://
