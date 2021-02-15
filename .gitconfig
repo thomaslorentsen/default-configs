@@ -8,6 +8,9 @@
     email = <secret>
     signingkey = <secret>
 
+[color]
+    ui = true
+
 [commit]
     gpgsign = true
     template = ~/.gitmessage.txt
