@@ -24,6 +24,9 @@ trim_trailing_whitespace = true
 [Makefile]
 indent_style = tab
 
+[Dockerfile]
+indent_size = 1
+
 [*.php]
 indent_size = 4
 insert_final_newline = true
